@@ -1,0 +1,38 @@
+============================================================
+FACE ANTI-SPOOFING TEST REPORT
+============================================================
+
+Test Date: 2025-10-31 19:20:08
+Checkpoint: checkpoints/best_model_run_8f3ihjcw.pth
+
+OVERALL PERFORMANCE
+------------------------------------------------------------
+Accuracy:        0.7694 (76.94%)
+AUC-ROC:         0.9613
+F1-Score:        0.5902
+
+DETECTION METRICS
+------------------------------------------------------------
+Precision (PPV): 0.4267
+Recall (TPR):    0.9568
+Specificity:     0.7300
+NPV:             0.9877
+
+ERROR RATES
+------------------------------------------------------------
+FAR (FPR):       0.2700 (27.00%)
+FRR (FNR):       0.0432 (4.32%)
+EER:             0.1034 (10.34%)
+
+CONFUSION MATRIX
+------------------------------------------------------------
+True Negatives:  1449
+False Positives: 536
+False Negatives: 18
+True Positives:  399
+
+DATASET INFO
+------------------------------------------------------------
+Total Samples:   2402
+Live Samples:    417
+Spoof Samples:   1985
