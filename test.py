@@ -417,7 +417,6 @@ def save_results(metrics, cm, y_true, y_pred, y_prob, dataset, indices, output_d
         f.write("="*60 + "\n")
         f.write("FACE ANTI-SPOOFING TEST REPORT\n")
         f.write("="*60 + "\n\n")
-        f.write(f"Test Date: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write(f"Checkpoint: checkpoints/best_model_run_8f3ihjcw.pth\n\n")
         
         f.write("OVERALL PERFORMANCE\n")

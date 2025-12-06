@@ -1,0 +1,13 @@
+torch
+torchvision
+transformers
+timm
+kornia
+scikit-learn
+pandas
+numpy
+seaborn
+matplotlib
+pillow
+wandb
+tqdm

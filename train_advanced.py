@@ -660,7 +660,7 @@ def train():
             best_acc = val_acc
             best_auc = val_auc
             best_threshold = optimal_threshold
-            logger.info(f"✓ New best! F1: {best_f1:.4f}, Acc: {best_acc:.4f}, AUC: {best_auc:.4f}, Threshold: {best_threshold:.3f}")
+            logger.info(f"New best! F1: {best_f1:.4f}, Acc: {best_acc:.4f}, AUC: {best_auc:.4f}, Threshold: {best_threshold:.3f}")
             
             save_checkpoint(
                 model, optimizer, scheduler, scaler, epoch,

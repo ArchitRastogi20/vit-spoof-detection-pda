@@ -463,7 +463,7 @@ def train(config_dict=None):
             best_acc = val_acc
             best_f1 = val_f1
             best_auc = val_auc
-            logger.info(f"✓ New best! Acc: {best_acc:.4f}, F1: {best_f1:.4f}, AUC: {best_auc:.4f}")
+            logger.info(f"New best! Acc: {best_acc:.4f}, F1: {best_f1:.4f}, AUC: {best_auc:.4f}")
             
             save_checkpoint(
                 model, optimizer, scheduler, scaler, epoch,

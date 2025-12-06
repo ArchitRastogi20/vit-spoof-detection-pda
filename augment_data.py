@@ -90,9 +90,9 @@ class GPUAugmenter:
                 K.RandomGaussianBlur(kernel_size=(3, 3), sigma=(0.1, 1.0), p=0.3),
             ).to(device)
             
-            logger.info("✓ Kornia GPU augmentation enabled")
+            logger.info("Kornia GPU augmentation enabled")
         except ImportError:
-            logger.warning("⚠ Kornia not found, using CPU augmentation")
+            logger.warning("Kornia not found, using CPU augmentation")
             self.use_kornia = False
     
     @torch.no_grad()
@@ -263,7 +263,7 @@ def process_class(image_paths, output_dir, class_name, num_augmentations, config
         
         gc.collect()
     
-    logger.info(f"✓ Completed {class_name}: {total_saved} augmented images saved")
+    logger.info(f"Completed {class_name}: {total_saved} augmented images saved")
     return total_saved
 
 
@@ -284,7 +284,7 @@ def copy_original_images(image_paths, output_dir, class_name):
         except Exception as e:
             logger.warning(f"Error copying {img_path}: {e}")
     
-    logger.info(f"✓ Copied {copied}/{len(image_paths)} original {class_name} images")
+    logger.info(f"Copied {copied}/{len(image_paths)} original {class_name} images")
     return copied
 
 
@@ -368,16 +368,16 @@ def main():
     
     print_statistics(config, live_images, spoof_images, live_total, spoof_total)
     
-    logger.info("✓ Data augmentation completed successfully!")
+    logger.info("Data augmentation completed successfully!")
 
 
 if __name__ == "__main__":
     try:
         import kornia
-        logger.info("✓ Kornia found - GPU acceleration enabled")
+        logger.info("Kornia found - GPU acceleration enabled")
     except ImportError:
-        logger.warning("⚠ Kornia not found - installing...")
+        logger.warning("Kornia not found - installing...")
         os.system("pip install --break-system-packages kornia -q")
-        logger.info("✓ Kornia installed")
+        logger.info("Kornia installed")
     
     main()

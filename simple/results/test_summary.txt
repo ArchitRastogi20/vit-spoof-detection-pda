@@ -2,7 +2,6 @@
 FACE ANTI-SPOOFING TEST REPORT
 ============================================================
 
-Test Date: 2025-10-31 19:20:08
 Checkpoint: checkpoints/best_model_run_8f3ihjcw.pth
 
 OVERALL PERFORMANCE
