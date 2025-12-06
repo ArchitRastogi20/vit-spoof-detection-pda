@@ -1,8 +1,3 @@
-"""
-Face Anti-Spoofing Training - Advanced
-Focal Loss + Class Weights + Threshold Optimization + Hyperparameter Tuning
-"""
-
 import os
 import gc
 import torch

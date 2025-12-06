@@ -1,9 +1,3 @@
-"""
-Data Augmentation Script for Face Anti-Spoofing
-Generates augmented images and saves to disk
-Optimized for RTX A5000 with 32 vCPU
-"""
-
 import os
 import sys
 import gc

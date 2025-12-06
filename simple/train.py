@@ -1,8 +1,3 @@
-"""
-Face Anti-Spoofing Training with Hyperparameter Tuning
-Single file - optimized for RTX A5000
-"""
-
 import os
 import json
 import gc

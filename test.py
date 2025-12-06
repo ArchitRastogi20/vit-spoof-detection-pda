@@ -1,8 +1,3 @@
-"""
-Face Anti-Spoofing Testing Script
-Tests trained ViT model on test split and generates comprehensive metrics
-"""
-
 import os
 import json
 import torch
