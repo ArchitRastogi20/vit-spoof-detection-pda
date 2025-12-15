@@ -91,7 +91,7 @@ pip install -r requirements.txt
 Or manually install core packages:
 
 ```bash
-pip install torch torchvision transformers timm kornia scikit-learn pandas numpy seaborn matplotlib pillow wandb tqdm
+pip install torch torchvision transformers timm kornia scikit-learn pandas numpy seaborn matplotlib pillow wandb tqdm kornia
 ```
 
 ## Data Augmentation
