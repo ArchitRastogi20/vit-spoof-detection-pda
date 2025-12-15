@@ -1,0 +1,41 @@
+{
+  "threshold_0.500": {
+    "confusion_matrix": [
+      [
+        128,
+        948
+      ],
+      [
+        70,
+        601
+      ]
+    ],
+    "threshold": 0.5
+  },
+  "threshold_0.700": {
+    "confusion_matrix": [
+      [
+        1073,
+        3
+      ],
+      [
+        671,
+        0
+      ]
+    ],
+    "threshold": 0.7
+  },
+  "threshold_0.573": {
+    "confusion_matrix": [
+      [
+        602,
+        474
+      ],
+      [
+        294,
+        377
+      ]
+    ],
+    "threshold": 0.5731797814369202
+  }
+}

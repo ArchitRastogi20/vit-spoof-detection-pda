@@ -1,0 +1,29 @@
+{
+  "Custom_ViT_FineTuned": {
+    "mean_time_ms": 5.430183410644531,
+    "std_time_ms": 6.6601223718432365,
+    "min_time_ms": 3.6437511444091797,
+    "max_time_ms": 69.65112686157227,
+    "median_time_ms": 3.944873809814453,
+    "fps": 184.15584233117198,
+    "total_samples": 100
+  },
+  "Base_ViT_Pretrained": {
+    "mean_time_ms": 4.855444431304932,
+    "std_time_ms": 1.6153839304306055,
+    "min_time_ms": 3.6687850952148438,
+    "max_time_ms": 11.373519897460938,
+    "median_time_ms": 4.106998443603516,
+    "fps": 205.95437022255112,
+    "total_samples": 100
+  },
+  "ResNet50_Pretrained": {
+    "mean_time_ms": 4.960036277770996,
+    "std_time_ms": 4.62581893806753,
+    "min_time_ms": 2.573251724243164,
+    "max_time_ms": 46.26941680908203,
+    "median_time_ms": 3.726363182067871,
+    "fps": 201.6114286263633,
+    "total_samples": 100
+  }
+}

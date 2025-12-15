@@ -1,0 +1,55 @@
+============================================================
+FACE ANTI-SPOOFING EVALUATION REPORT
+============================================================
+
+Model: Custom_ViT_FineTuned
+Evaluation Date: 2025-12-15 13:02:17
+
+DATASET INFO
+------------------------------------------------------------
+Total Samples:   1747
+Live Samples:    1076
+Spoof Samples:   671
+
+OVERALL PERFORMANCE
+------------------------------------------------------------
+ROC AUC:         0.5665
+EER:             0.4526 (45.26%)
+EER Threshold:   0.5597
+
+METRICS AT KEY THRESHOLDS
+------------------------------------------------------------
+
+Threshold: 0.5000
+  Accuracy:        0.5249 (52.49%)
+  F1-Score:        0.5268
+  Precision:       0.4266
+  Recall:          0.6885
+  APCER (FAR):     0.5771 (57.71%)
+  BPCER (FRR):     0.3115 (31.15%)
+  Confusion Matrix:
+    TN: 455, FP: 621
+    FN: 209, TP: 462
+
+Threshold: 0.7000
+  Accuracy:        0.6039 (60.39%)
+  F1-Score:        0.2495
+  Precision:       0.4582
+  Recall:          0.1714
+  APCER (FAR):     0.1264 (12.64%)
+  BPCER (FRR):     0.8286 (82.86%)
+  Confusion Matrix:
+    TN: 940, FP: 136
+    FN: 556, TP: 115
+
+Threshold: 0.5597
+  Accuracy:        0.5478 (54.78%)
+  F1-Score:        0.4823
+  Precision:       0.4304
+  Recall:          0.5484
+  APCER (FAR):     0.4526 (45.26%)
+  BPCER (FRR):     0.4516 (45.16%)
+  Confusion Matrix:
+    TN: 589, FP: 487
+    FN: 303, TP: 368
+

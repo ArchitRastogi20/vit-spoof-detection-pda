@@ -1,0 +1,32 @@
+{
+  "evaluation_date": "2025-12-15T13:09:55.425852",
+  "total_models_evaluated": 4,
+  "best_performers": {
+    "highest_auc": {
+      "model": "Custom_ViT_FineTuned",
+      "value": 0.5665038310461554
+    },
+    "lowest_eer": {
+      "model": "ResNet50_Pretrained",
+      "value": 0.4405204460966542
+    },
+    "highest_accuracy": {
+      "model": "Base_ViT_Pretrained",
+      "value": 0.5621064682312535
+    }
+  },
+  "performance_ranges": {
+    "auc": {
+      "min": 0.3989246477819821,
+      "max": 0.5665038310461554
+    },
+    "eer": {
+      "min": 0.4405204460966542,
+      "max": 0.5920074349442379
+    },
+    "accuracy": {
+      "min": 0.3840870062965083,
+      "max": 0.5621064682312535
+    }
+  }
+}

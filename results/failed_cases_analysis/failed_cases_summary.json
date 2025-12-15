@@ -1,0 +1,873 @@
+{
+  "Custom_ViT_FineTuned": {
+    "false_positives": [
+      {
+        "image": "540207.png",
+        "true_label": "live",
+        "predicted_score": 0.8733782,
+        "error_magnitude": 0.8733782
+      },
+      {
+        "image": "535771.png",
+        "true_label": "live",
+        "predicted_score": 0.8587495,
+        "error_magnitude": 0.8587495
+      },
+      {
+        "image": "506629.png",
+        "true_label": "live",
+        "predicted_score": 0.85824776,
+        "error_magnitude": 0.85824776
+      },
+      {
+        "image": "538113.png",
+        "true_label": "live",
+        "predicted_score": 0.8500241,
+        "error_magnitude": 0.8500241
+      },
+      {
+        "image": "554686.png",
+        "true_label": "live",
+        "predicted_score": 0.84572494,
+        "error_magnitude": 0.84572494
+      },
+      {
+        "image": "495102.png",
+        "true_label": "live",
+        "predicted_score": 0.84493864,
+        "error_magnitude": 0.84493864
+      },
+      {
+        "image": "542347.png",
+        "true_label": "live",
+        "predicted_score": 0.84172195,
+        "error_magnitude": 0.84172195
+      },
+      {
+        "image": "498835.png",
+        "true_label": "live",
+        "predicted_score": 0.84121716,
+        "error_magnitude": 0.84121716
+      },
+      {
+        "image": "537084.png",
+        "true_label": "live",
+        "predicted_score": 0.8375816,
+        "error_magnitude": 0.8375816
+      },
+      {
+        "image": "535333.png",
+        "true_label": "live",
+        "predicted_score": 0.8371387,
+        "error_magnitude": 0.8371387
+      },
+      {
+        "image": "505156.png",
+        "true_label": "live",
+        "predicted_score": 0.83381456,
+        "error_magnitude": 0.83381456
+      },
+      {
+        "image": "532108.png",
+        "true_label": "live",
+        "predicted_score": 0.8304563,
+        "error_magnitude": 0.8304563
+      },
+      {
+        "image": "494460.png",
+        "true_label": "live",
+        "predicted_score": 0.83019125,
+        "error_magnitude": 0.83019125
+      },
+      {
+        "image": "537875.png",
+        "true_label": "live",
+        "predicted_score": 0.828527,
+        "error_magnitude": 0.828527
+      },
+      {
+        "image": "513898.png",
+        "true_label": "live",
+        "predicted_score": 0.8221621,
+        "error_magnitude": 0.8221621
+      },
+      {
+        "image": "537609.png",
+        "true_label": "live",
+        "predicted_score": 0.8158463,
+        "error_magnitude": 0.8158463
+      },
+      {
+        "image": "526285.png",
+        "true_label": "live",
+        "predicted_score": 0.8154545,
+        "error_magnitude": 0.8154545
+      },
+      {
+        "image": "513034.png",
+        "true_label": "live",
+        "predicted_score": 0.8124739,
+        "error_magnitude": 0.8124739
+      },
+      {
+        "image": "537254.png",
+        "true_label": "live",
+        "predicted_score": 0.81198037,
+        "error_magnitude": 0.81198037
+      },
+      {
+        "image": "540645.png",
+        "true_label": "live",
+        "predicted_score": 0.810833,
+        "error_magnitude": 0.810833
+      }
+    ],
+    "false_negatives": [
+      {
+        "image": "500180.png",
+        "true_label": "spoof",
+        "predicted_score": 0.24172224,
+        "error_magnitude": 0.75827776
+      },
+      {
+        "image": "516181.png",
+        "true_label": "spoof",
+        "predicted_score": 0.24588548,
+        "error_magnitude": 0.75411452
+      },
+      {
+        "image": "501291.png",
+        "true_label": "spoof",
+        "predicted_score": 0.2638364,
+        "error_magnitude": 0.7361636
+      },
+      {
+        "image": "521570.png",
+        "true_label": "spoof",
+        "predicted_score": 0.2689935,
+        "error_magnitude": 0.7310065
+      },
+      {
+        "image": "499425.png",
+        "true_label": "spoof",
+        "predicted_score": 0.27697682,
+        "error_magnitude": 0.72302318
+      },
+      {
+        "image": "561007.png",
+        "true_label": "spoof",
+        "predicted_score": 0.28007737,
+        "error_magnitude": 0.71992263
+      },
+      {
+        "image": "530183.png",
+        "true_label": "spoof",
+        "predicted_score": 0.28190476,
+        "error_magnitude": 0.71809524
+      },
+      {
+        "image": "524404.png",
+        "true_label": "spoof",
+        "predicted_score": 0.28762442,
+        "error_magnitude": 0.71237558
+      },
+      {
+        "image": "515943.png",
+        "true_label": "spoof",
+        "predicted_score": 0.29327625,
+        "error_magnitude": 0.70672375
+      },
+      {
+        "image": "500637.png",
+        "true_label": "spoof",
+        "predicted_score": 0.29729888,
+        "error_magnitude": 0.70270112
+      },
+      {
+        "image": "534127.png",
+        "true_label": "spoof",
+        "predicted_score": 0.29808217,
+        "error_magnitude": 0.70191783
+      },
+      {
+        "image": "516912.png",
+        "true_label": "spoof",
+        "predicted_score": 0.30792165,
+        "error_magnitude": 0.6920783500000001
+      },
+      {
+        "image": "503130.png",
+        "true_label": "spoof",
+        "predicted_score": 0.30871007,
+        "error_magnitude": 0.6912899299999999
+      },
+      {
+        "image": "535513.png",
+        "true_label": "spoof",
+        "predicted_score": 0.3090977,
+        "error_magnitude": 0.6909023000000001
+      },
+      {
+        "image": "559302.png",
+        "true_label": "spoof",
+        "predicted_score": 0.31127948,
+        "error_magnitude": 0.68872052
+      },
+      {
+        "image": "532184.png",
+        "true_label": "spoof",
+        "predicted_score": 0.3115339,
+        "error_magnitude": 0.6884661000000001
+      },
+      {
+        "image": "541147.png",
+        "true_label": "spoof",
+        "predicted_score": 0.31315228,
+        "error_magnitude": 0.68684772
+      },
+      {
+        "image": "540360.png",
+        "true_label": "spoof",
+        "predicted_score": 0.31657064,
+        "error_magnitude": 0.68342936
+      },
+      {
+        "image": "523342.png",
+        "true_label": "spoof",
+        "predicted_score": 0.31796756,
+        "error_magnitude": 0.68203244
+      },
+      {
+        "image": "496322.png",
+        "true_label": "spoof",
+        "predicted_score": 0.31810796,
+        "error_magnitude": 0.6818920399999999
+      }
+    ],
+    "total_fp": 20,
+    "total_fn": 20
+  },
+  "Base_ViT_Pretrained": {
+    "false_positives": [
+      {
+        "image": "510684.png",
+        "true_label": "live",
+        "predicted_score": 0.8059324,
+        "error_magnitude": 0.8059324
+      },
+      {
+        "image": "510221.png",
+        "true_label": "live",
+        "predicted_score": 0.7675655,
+        "error_magnitude": 0.7675655
+      },
+      {
+        "image": "523064.png",
+        "true_label": "live",
+        "predicted_score": 0.76674086,
+        "error_magnitude": 0.76674086
+      },
+      {
+        "image": "509868.png",
+        "true_label": "live",
+        "predicted_score": 0.76169467,
+        "error_magnitude": 0.76169467
+      },
+      {
+        "image": "526222.png",
+        "true_label": "live",
+        "predicted_score": 0.751706,
+        "error_magnitude": 0.751706
+      },
+      {
+        "image": "505046.png",
+        "true_label": "live",
+        "predicted_score": 0.7472069,
+        "error_magnitude": 0.7472069
+      },
+      {
+        "image": "549977.png",
+        "true_label": "live",
+        "predicted_score": 0.7211246,
+        "error_magnitude": 0.7211246
+      },
+      {
+        "image": "508548.png",
+        "true_label": "live",
+        "predicted_score": 0.71696424,
+        "error_magnitude": 0.71696424
+      },
+      {
+        "image": "509672.png",
+        "true_label": "live",
+        "predicted_score": 0.7114228,
+        "error_magnitude": 0.7114228
+      },
+      {
+        "image": "546216.png",
+        "true_label": "live",
+        "predicted_score": 0.70351684,
+        "error_magnitude": 0.70351684
+      },
+      {
+        "image": "497372.png",
+        "true_label": "live",
+        "predicted_score": 0.6983812,
+        "error_magnitude": 0.6983812
+      },
+      {
+        "image": "532708.png",
+        "true_label": "live",
+        "predicted_score": 0.6933108,
+        "error_magnitude": 0.6933108
+      },
+      {
+        "image": "534911.png",
+        "true_label": "live",
+        "predicted_score": 0.6888757,
+        "error_magnitude": 0.6888757
+      },
+      {
+        "image": "544828.png",
+        "true_label": "live",
+        "predicted_score": 0.68635243,
+        "error_magnitude": 0.68635243
+      },
+      {
+        "image": "548203.png",
+        "true_label": "live",
+        "predicted_score": 0.6835697,
+        "error_magnitude": 0.6835697
+      },
+      {
+        "image": "494450.png",
+        "true_label": "live",
+        "predicted_score": 0.68271434,
+        "error_magnitude": 0.68271434
+      },
+      {
+        "image": "534739.png",
+        "true_label": "live",
+        "predicted_score": 0.682305,
+        "error_magnitude": 0.682305
+      },
+      {
+        "image": "509976.png",
+        "true_label": "live",
+        "predicted_score": 0.67436194,
+        "error_magnitude": 0.67436194
+      },
+      {
+        "image": "548564.png",
+        "true_label": "live",
+        "predicted_score": 0.67244065,
+        "error_magnitude": 0.67244065
+      },
+      {
+        "image": "535411.png",
+        "true_label": "live",
+        "predicted_score": 0.6707495,
+        "error_magnitude": 0.6707495
+      }
+    ],
+    "false_negatives": [
+      {
+        "image": "542875.png",
+        "true_label": "spoof",
+        "predicted_score": 0.05370682,
+        "error_magnitude": 0.94629318
+      },
+      {
+        "image": "560130.png",
+        "true_label": "spoof",
+        "predicted_score": 0.05766333,
+        "error_magnitude": 0.94233667
+      },
+      {
+        "image": "542318.png",
+        "true_label": "spoof",
+        "predicted_score": 0.06133506,
+        "error_magnitude": 0.93866494
+      },
+      {
+        "image": "540360.png",
+        "true_label": "spoof",
+        "predicted_score": 0.08085067,
+        "error_magnitude": 0.91914933
+      },
+      {
+        "image": "515142.png",
+        "true_label": "spoof",
+        "predicted_score": 0.08663641,
+        "error_magnitude": 0.91336359
+      },
+      {
+        "image": "496322.png",
+        "true_label": "spoof",
+        "predicted_score": 0.08948796,
+        "error_magnitude": 0.91051204
+      },
+      {
+        "image": "541714.png",
+        "true_label": "spoof",
+        "predicted_score": 0.09100352,
+        "error_magnitude": 0.90899648
+      },
+      {
+        "image": "506296.png",
+        "true_label": "spoof",
+        "predicted_score": 0.09325158,
+        "error_magnitude": 0.90674842
+      },
+      {
+        "image": "548613.png",
+        "true_label": "spoof",
+        "predicted_score": 0.10638666,
+        "error_magnitude": 0.89361334
+      },
+      {
+        "image": "510938.png",
+        "true_label": "spoof",
+        "predicted_score": 0.10936713,
+        "error_magnitude": 0.89063287
+      },
+      {
+        "image": "541931.png",
+        "true_label": "spoof",
+        "predicted_score": 0.11796294,
+        "error_magnitude": 0.88203706
+      },
+      {
+        "image": "553222.png",
+        "true_label": "spoof",
+        "predicted_score": 0.12025024,
+        "error_magnitude": 0.87974976
+      },
+      {
+        "image": "495159.png",
+        "true_label": "spoof",
+        "predicted_score": 0.12199461,
+        "error_magnitude": 0.87800539
+      },
+      {
+        "image": "508992.png",
+        "true_label": "spoof",
+        "predicted_score": 0.1233335,
+        "error_magnitude": 0.8766665
+      },
+      {
+        "image": "548085.png",
+        "true_label": "spoof",
+        "predicted_score": 0.1258463,
+        "error_magnitude": 0.8741537
+      },
+      {
+        "image": "524667.png",
+        "true_label": "spoof",
+        "predicted_score": 0.12954727,
+        "error_magnitude": 0.87045273
+      },
+      {
+        "image": "525426.png",
+        "true_label": "spoof",
+        "predicted_score": 0.12980492,
+        "error_magnitude": 0.87019508
+      },
+      {
+        "image": "513919.png",
+        "true_label": "spoof",
+        "predicted_score": 0.13391663,
+        "error_magnitude": 0.86608337
+      },
+      {
+        "image": "555987.png",
+        "true_label": "spoof",
+        "predicted_score": 0.14224048,
+        "error_magnitude": 0.85775952
+      },
+      {
+        "image": "539307.png",
+        "true_label": "spoof",
+        "predicted_score": 0.14256874,
+        "error_magnitude": 0.85743126
+      }
+    ],
+    "total_fp": 20,
+    "total_fn": 20
+  },
+  "ResNet50_Pretrained": {
+    "false_positives": [
+      {
+        "image": "549513.png",
+        "true_label": "live",
+        "predicted_score": 0.74671185,
+        "error_magnitude": 0.74671185
+      },
+      {
+        "image": "511034.png",
+        "true_label": "live",
+        "predicted_score": 0.71807593,
+        "error_magnitude": 0.71807593
+      },
+      {
+        "image": "548167.png",
+        "true_label": "live",
+        "predicted_score": 0.70721024,
+        "error_magnitude": 0.70721024
+      },
+      {
+        "image": "556588.png",
+        "true_label": "live",
+        "predicted_score": 0.6969327,
+        "error_magnitude": 0.6969327
+      },
+      {
+        "image": "495146.png",
+        "true_label": "live",
+        "predicted_score": 0.69564056,
+        "error_magnitude": 0.69564056
+      },
+      {
+        "image": "551587.png",
+        "true_label": "live",
+        "predicted_score": 0.69187635,
+        "error_magnitude": 0.69187635
+      },
+      {
+        "image": "529515.png",
+        "true_label": "live",
+        "predicted_score": 0.69114614,
+        "error_magnitude": 0.69114614
+      },
+      {
+        "image": "552269.png",
+        "true_label": "live",
+        "predicted_score": 0.6887373,
+        "error_magnitude": 0.6887373
+      },
+      {
+        "image": "537250.png",
+        "true_label": "live",
+        "predicted_score": 0.6880544,
+        "error_magnitude": 0.6880544
+      },
+      {
+        "image": "538685.png",
+        "true_label": "live",
+        "predicted_score": 0.6810748,
+        "error_magnitude": 0.6810748
+      },
+      {
+        "image": "542480.png",
+        "true_label": "live",
+        "predicted_score": 0.6808019,
+        "error_magnitude": 0.6808019
+      },
+      {
+        "image": "505597.png",
+        "true_label": "live",
+        "predicted_score": 0.67885005,
+        "error_magnitude": 0.67885005
+      },
+      {
+        "image": "559366.png",
+        "true_label": "live",
+        "predicted_score": 0.6788358,
+        "error_magnitude": 0.6788358
+      },
+      {
+        "image": "542440.png",
+        "true_label": "live",
+        "predicted_score": 0.6785966,
+        "error_magnitude": 0.6785966
+      },
+      {
+        "image": "528206.png",
+        "true_label": "live",
+        "predicted_score": 0.67857635,
+        "error_magnitude": 0.67857635
+      },
+      {
+        "image": "535335.png",
+        "true_label": "live",
+        "predicted_score": 0.6783514,
+        "error_magnitude": 0.6783514
+      },
+      {
+        "image": "539793.png",
+        "true_label": "live",
+        "predicted_score": 0.67815995,
+        "error_magnitude": 0.67815995
+      },
+      {
+        "image": "548494.png",
+        "true_label": "live",
+        "predicted_score": 0.67813486,
+        "error_magnitude": 0.67813486
+      },
+      {
+        "image": "538009.png",
+        "true_label": "live",
+        "predicted_score": 0.67753434,
+        "error_magnitude": 0.67753434
+      },
+      {
+        "image": "500049.png",
+        "true_label": "live",
+        "predicted_score": 0.67701393,
+        "error_magnitude": 0.67701393
+      }
+    ],
+    "false_negatives": [
+      {
+        "image": "534373.png",
+        "true_label": "spoof",
+        "predicted_score": 0.35094732,
+        "error_magnitude": 0.64905268
+      },
+      {
+        "image": "511176.png",
+        "true_label": "spoof",
+        "predicted_score": 0.35114482,
+        "error_magnitude": 0.64885518
+      },
+      {
+        "image": "530368.png",
+        "true_label": "spoof",
+        "predicted_score": 0.36583456,
+        "error_magnitude": 0.6341654400000001
+      },
+      {
+        "image": "551912.png",
+        "true_label": "spoof",
+        "predicted_score": 0.38896897,
+        "error_magnitude": 0.6110310299999999
+      },
+      {
+        "image": "557370.png",
+        "true_label": "spoof",
+        "predicted_score": 0.40287882,
+        "error_magnitude": 0.59712118
+      },
+      {
+        "image": "495709.png",
+        "true_label": "spoof",
+        "predicted_score": 0.42385703,
+        "error_magnitude": 0.57614297
+      },
+      {
+        "image": "557536.png",
+        "true_label": "spoof",
+        "predicted_score": 0.42840886,
+        "error_magnitude": 0.57159114
+      },
+      {
+        "image": "496124.png",
+        "true_label": "spoof",
+        "predicted_score": 0.44348958,
+        "error_magnitude": 0.55651042
+      },
+      {
+        "image": "541931.png",
+        "true_label": "spoof",
+        "predicted_score": 0.45827624,
+        "error_magnitude": 0.54172376
+      },
+      {
+        "image": "507554.png",
+        "true_label": "spoof",
+        "predicted_score": 0.46275607,
+        "error_magnitude": 0.53724393
+      },
+      {
+        "image": "524667.png",
+        "true_label": "spoof",
+        "predicted_score": 0.4643086,
+        "error_magnitude": 0.5356913999999999
+      },
+      {
+        "image": "548085.png",
+        "true_label": "spoof",
+        "predicted_score": 0.4657473,
+        "error_magnitude": 0.5342527
+      },
+      {
+        "image": "510938.png",
+        "true_label": "spoof",
+        "predicted_score": 0.46835655,
+        "error_magnitude": 0.53164345
+      },
+      {
+        "image": "542508.png",
+        "true_label": "spoof",
+        "predicted_score": 0.4683915,
+        "error_magnitude": 0.5316084999999999
+      },
+      {
+        "image": "546141.png",
+        "true_label": "spoof",
+        "predicted_score": 0.4688492,
+        "error_magnitude": 0.5311508
+      },
+      {
+        "image": "559868.png",
+        "true_label": "spoof",
+        "predicted_score": 0.46892267,
+        "error_magnitude": 0.53107733
+      },
+      {
+        "image": "555987.png",
+        "true_label": "spoof",
+        "predicted_score": 0.4695493,
+        "error_magnitude": 0.5304507
+      },
+      {
+        "image": "524256.png",
+        "true_label": "spoof",
+        "predicted_score": 0.4697318,
+        "error_magnitude": 0.5302682000000001
+      },
+      {
+        "image": "510309.png",
+        "true_label": "spoof",
+        "predicted_score": 0.46981993,
+        "error_magnitude": 0.53018007
+      },
+      {
+        "image": "553222.png",
+        "true_label": "spoof",
+        "predicted_score": 0.47033435,
+        "error_magnitude": 0.52966565
+      }
+    ],
+    "total_fp": 20,
+    "total_fn": 20
+  },
+  "SigNet_F": {
+    "false_positives": [
+      {
+        "image": "512515.png",
+        "true_label": "live",
+        "predicted_score": 0.99966,
+        "error_magnitude": 0.99966
+      },
+      {
+        "image": "561543.png",
+        "true_label": "live",
+        "predicted_score": 0.99939156,
+        "error_magnitude": 0.99939156
+      },
+      {
+        "image": "515791.png",
+        "true_label": "live",
+        "predicted_score": 0.99931383,
+        "error_magnitude": 0.99931383
+      },
+      {
+        "image": "538490.png",
+        "true_label": "live",
+        "predicted_score": 0.9992754,
+        "error_magnitude": 0.9992754
+      },
+      {
+        "image": "506629.png",
+        "true_label": "live",
+        "predicted_score": 0.9992716,
+        "error_magnitude": 0.9992716
+      },
+      {
+        "image": "527846.png",
+        "true_label": "live",
+        "predicted_score": 0.99925274,
+        "error_magnitude": 0.99925274
+      },
+      {
+        "image": "555932.png",
+        "true_label": "live",
+        "predicted_score": 0.99918526,
+        "error_magnitude": 0.99918526
+      },
+      {
+        "image": "556588.png",
+        "true_label": "live",
+        "predicted_score": 0.99916506,
+        "error_magnitude": 0.99916506
+      },
+      {
+        "image": "518708.png",
+        "true_label": "live",
+        "predicted_score": 0.9991449,
+        "error_magnitude": 0.9991449
+      },
+      {
+        "image": "499443.png",
+        "true_label": "live",
+        "predicted_score": 0.9990595,
+        "error_magnitude": 0.9990595
+      },
+      {
+        "image": "513225.png",
+        "true_label": "live",
+        "predicted_score": 0.9990557,
+        "error_magnitude": 0.9990557
+      },
+      {
+        "image": "523861.png",
+        "true_label": "live",
+        "predicted_score": 0.998973,
+        "error_magnitude": 0.998973
+      },
+      {
+        "image": "494491.png",
+        "true_label": "live",
+        "predicted_score": 0.99895775,
+        "error_magnitude": 0.99895775
+      },
+      {
+        "image": "512581.png",
+        "true_label": "live",
+        "predicted_score": 0.9988728,
+        "error_magnitude": 0.9988728
+      },
+      {
+        "image": "494579.png",
+        "true_label": "live",
+        "predicted_score": 0.99882585,
+        "error_magnitude": 0.99882585
+      },
+      {
+        "image": "542179.png",
+        "true_label": "live",
+        "predicted_score": 0.9987425,
+        "error_magnitude": 0.9987425
+      },
+      {
+        "image": "524446.png",
+        "true_label": "live",
+        "predicted_score": 0.99870527,
+        "error_magnitude": 0.99870527
+      },
+      {
+        "image": "512126.png",
+        "true_label": "live",
+        "predicted_score": 0.99870217,
+        "error_magnitude": 0.99870217
+      },
+      {
+        "image": "556494.png",
+        "true_label": "live",
+        "predicted_score": 0.99869686,
+        "error_magnitude": 0.99869686
+      },
+      {
+        "image": "540955.png",
+        "true_label": "live",
+        "predicted_score": 0.99869186,
+        "error_magnitude": 0.99869186
+      }
+    ],
+    "false_negatives": [],
+    "total_fp": 20,
+    "total_fn": 0
+  }
+}

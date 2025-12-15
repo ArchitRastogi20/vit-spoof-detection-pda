@@ -1,0 +1,55 @@
+============================================================
+FACE ANTI-SPOOFING EVALUATION REPORT
+============================================================
+
+Model: ResNet50_Pretrained
+Evaluation Date: 2025-12-15 13:02:31
+
+DATASET INFO
+------------------------------------------------------------
+Total Samples:   1747
+Live Samples:    1076
+Spoof Samples:   671
+
+OVERALL PERFORMANCE
+------------------------------------------------------------
+ROC AUC:         0.5597
+EER:             0.4405 (44.05%)
+EER Threshold:   0.5732
+
+METRICS AT KEY THRESHOLDS
+------------------------------------------------------------
+
+Threshold: 0.5000
+  Accuracy:        0.4173 (41.73%)
+  F1-Score:        0.5414
+  Precision:       0.3880
+  Recall:          0.8957
+  APCER (FAR):     0.8810 (88.10%)
+  BPCER (FRR):     0.1043 (10.43%)
+  Confusion Matrix:
+    TN: 128, FP: 948
+    FN: 70, TP: 601
+
+Threshold: 0.7000
+  Accuracy:        0.6142 (61.42%)
+  F1-Score:        0.0000
+  Precision:       0.0000
+  Recall:          0.0000
+  APCER (FAR):     0.0028 (0.28%)
+  BPCER (FRR):     1.0000 (100.00%)
+  Confusion Matrix:
+    TN: 1073, FP: 3
+    FN: 671, TP: 0
+
+Threshold: 0.5732
+  Accuracy:        0.5604 (56.04%)
+  F1-Score:        0.4954
+  Precision:       0.4430
+  Recall:          0.5618
+  APCER (FAR):     0.4405 (44.05%)
+  BPCER (FRR):     0.4382 (43.82%)
+  Confusion Matrix:
+    TN: 602, FP: 474
+    FN: 294, TP: 377
+

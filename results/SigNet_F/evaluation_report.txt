@@ -1,0 +1,55 @@
+============================================================
+FACE ANTI-SPOOFING EVALUATION REPORT
+============================================================
+
+Model: SigNet_F
+Evaluation Date: 2025-12-15 13:02:36
+
+DATASET INFO
+------------------------------------------------------------
+Total Samples:   1747
+Live Samples:    1076
+Spoof Samples:   671
+
+OVERALL PERFORMANCE
+------------------------------------------------------------
+ROC AUC:         0.3989
+EER:             0.5920 (59.20%)
+EER Threshold:   0.9906
+
+METRICS AT KEY THRESHOLDS
+------------------------------------------------------------
+
+Threshold: 0.5000
+  Accuracy:        0.3841 (38.41%)
+  F1-Score:        0.5550
+  Precision:       0.3841
+  Recall:          1.0000
+  APCER (FAR):     1.0000 (100.00%)
+  BPCER (FRR):     0.0000 (0.00%)
+  Confusion Matrix:
+    TN: 0, FP: 1076
+    FN: 0, TP: 671
+
+Threshold: 0.7000
+  Accuracy:        0.3841 (38.41%)
+  F1-Score:        0.5550
+  Precision:       0.3841
+  Recall:          1.0000
+  APCER (FAR):     1.0000 (100.00%)
+  BPCER (FRR):     0.0000 (0.00%)
+  Confusion Matrix:
+    TN: 0, FP: 1076
+    FN: 0, TP: 671
+
+Threshold: 0.9906
+  Accuracy:        0.4081 (40.81%)
+  F1-Score:        0.3464
+  Precision:       0.3008
+  Recall:          0.4083
+  APCER (FAR):     0.5920 (59.20%)
+  BPCER (FRR):     0.5917 (59.17%)
+  Confusion Matrix:
+    TN: 439, FP: 637
+    FN: 397, TP: 274
+
