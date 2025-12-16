@@ -1,0 +1,4 @@
+Model,τ=0.5 APCER,τ=0.5 BPCER,τ=0.7 APCER,τ=0.7 BPCER,EER,EER Threshold
+Custom ViT FineTuned,57.7%,31.1%,12.6%,82.9%,45.3%,0.560
+Base ViT Pretrained,14.6%,90.6%,0.9%,100.0%,54.9%,0.323
+ResNet50 Pretrained,88.1%,10.4%,0.3%,100.0%,44.1%,0.573
